@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercicios</title>
+	<script>
+    	function passos(){
+
+    		var x = 10 // ponto x 
+	    	var y = 50 // ponto y
+
+    		while(x <= y){
+			x++ //inserindo passos
+			document.write('Passo n° ' + x + '<br/>')
+			if (x === y) {break}
+		}
+	}
+
+		function contarPassos(){
+			var x = 10 // ponto x 
+	    	var y = 50 // ponto y
+			document.write('Foram necessários ' + (y-x) + ' passos.')
+		}
+
+	</script>
+</head>
+<body>
+	<h1>Exercício</h1>
+	<a href="https://www.mundojs.com.br/2021/01/06/exercicio-atravessar-a-rua/">Link do Exercício</a>
+
+	<h1>Resultado</h1>
+
+	<p id="resultado"><script>passos();</script></p>
+	<p id="resultado"><script>contarPassos();</script></p>
+	
+
+
+</body>
+</html>
